@@ -18,6 +18,7 @@ Bert-base-cased预训练模型（https://huggingface.co/google-bert/bert-base-ca
 The EQN framework is a micro-emotion annotation and detection system that realizes the automatic micro-emotion annotation of text with energy level scores for the first time. The text emotion datasets it annotates are no longer simple single-label or multi-label, but macro-emotions and micro-emotions with continuous values ​​of emotion intensity. The labeling of emotion datasets has changed from discrete to continuous. It plays an important role in the subtle research of emotions in fields such as emotional computing, human-computer alignment, humanoid robots, and psychology.
 This is the experimental result of the EQN micro-emotion detection and annotation framework we proposed, the train.csv of the Goemotions dataset with micro-emotion labels with energy level intensity values
 and the model trained on the Goemotions dataset based on the BERT model. Attached is the micro-emotion annotation code based on pytorch, which can be used to annotate the Goemotions dataset by yourself, or predict the emotion classification based on the annotation results. The specific classification method will be referred to in our upcoming paper later.
+
 Note:
 1. gotrainadd.csv: Goemotions dataset with additional annotation (micro-emotion labels with energy level intensity values).
 2. 28pd.py: Micro-emotion detection and annotation code based on pytorch.
