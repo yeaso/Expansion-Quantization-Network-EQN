@@ -13,7 +13,8 @@ EQN框架是一个微情感标注和检测系统，首次实现了带能级分�
 
 本项目实验环境。
 GPU：NVIDIA GeForce RTX 3090 GPU
-Bert-base-cased预训练模型（https://huggingface.co/google-bert/bert-base-cased），python=3.7，pytorch=1.9.0，cudatoolkit=11.3.1，cudnn=8.9.7.29.
+Bert-base-cased预训练模型: https://huggingface.co/google-bert/bert-base-cased
+python=3.7，pytorch=1.9.0，cudatoolkit=11.3.1，cudnn=8.9.7.29.
 
 The EQN framework is a micro-emotion annotation and detection system that realizes the automatic micro-emotion annotation of text with energy level scores for the first time. The text emotion datasets it annotates are no longer simple single-label or multi-label, but macro-emotions and micro-emotions with continuous values ​​of emotion intensity. The labeling of emotion datasets has changed from discrete to continuous. It plays an important role in the subtle research of emotions in fields such as emotional computing, human-computer alignment, humanoid robots, and psychology.
 This is the experimental result of the EQN micro-emotion detection and annotation framework we proposed, the train.csv of the Goemotions dataset with micro-emotion labels with energy level intensity values
@@ -27,4 +28,5 @@ Note:
 
 The experimental environment of this project.
 GPU：NVIDIA GeForce RTX 3090 GPU
-Bert-base-cased pre-trained model（https://huggingface.co/google-bert/bert-base-cased），python=3.7，pytorch=1.9.0，cudatoolkit=11.3.1，cudnn=8.9.7.29.
+Bert-base-cased pre-trained model: https://huggingface.co/google-bert/bert-base-cased
+python=3.7，pytorch=1.9.0，cudatoolkit=11.3.1，cudnn=8.9.7.29.
